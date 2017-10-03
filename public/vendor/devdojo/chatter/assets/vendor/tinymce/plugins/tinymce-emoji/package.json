@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "tinymce-emoji",
+        "scope": null,
+        "escapedName": "tinymce-emoji",
+        "name": "tinymce-emoji",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/ajten/Desktop/chlove"
+    ]
+  ],
+  "_from": "tinymce-emoji@latest",
+  "_id": "tinymce-emoji@0.1.4",
+  "_inCache": true,
+  "_location": "/tinymce-emoji",
+  "_nodeVersion": "6.10.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/tinymce-emoji-0.1.4.tgz_1502872508878_0.5122459393460304"
+  },
+  "_npmUser": {
+    "name": "geekjosh",
+    "email": "sicjoshsic@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "tinymce-emoji",
+    "scope": null,
+    "escapedName": "tinymce-emoji",
+    "name": "tinymce-emoji",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tinymce-emoji/-/tinymce-emoji-0.1.4.tgz",
+  "_shasum": "aa517ddaf569c69fc5e70b80a05002cc3fe2b575",
+  "_shrinkwrap": null,
+  "_spec": "tinymce-emoji",
+  "_where": "/home/ajten/Desktop/chlove",
+  "author": {
+    "name": "Josh Johnson",
+    "url": "geekjosh"
+  },
+  "bugs": {
+    "url": "https://github.com/GeekJosh/tinymce-emoji/issues",
+    "email": "sicjoshsic@gmail.com"
+  },
+  "dependencies": {
+    "tinymce": "^4.6.5"
+  },
+  "description": "A tinymce plugin to add a native emoji helper dialog",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "aa517ddaf569c69fc5e70b80a05002cc3fe2b575",
+    "tarball": "https://registry.npmjs.org/tinymce-emoji/-/tinymce-emoji-0.1.4.tgz"
+  },
+  "gitHead": "c594cd6a1e2fa08f1c183f5e1c84355fc7ea20b3",
+  "homepage": "https://github.com/GeekJosh/tinymce-emoji#readme",
+  "keywords": [
+    "tinymce",
+    "wysiwyg",
+    "emoji",
+    "emoticon",
+    "smiley",
+    "icon"
+  ],
+  "license": "MIT",
+  "main": "dist/tinymce-emoji/plugin.min.js",
+  "maintainers": [
+    {
+      "name": "geekjosh",
+      "email": "sicjoshsic@gmail.com"
+    }
+  ],
+  "name": "tinymce-emoji",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekJosh/tinymce-emoji.git"
+  },
+  "scripts": {
+    "build": "webpack --config config/webpack.config.prod.js --progress",
+    "lint": "eslint 'src/**/*.js'",
+    "start": "webpack-dev-server --config config/webpack.config.dev.js --progress --open --inline --port 8081"
+  },
+  "version": "0.1.4"
+}

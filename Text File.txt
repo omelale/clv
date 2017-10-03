@@ -1,0 +1,26 @@
+allora boj postimet qe do jene nje rob mund te beje nje fundraiser e cila do kete titull , pershkrim , shifren qe do kete si objektiv , shifren finale , personin qe e krijon , active ose jo
+
+budget explanation
+goals of project
+
+	
+foto dhe video  mmultiple , tags , categories  sortable 
+ 
+
+searchbar available everywhere to find projects , people , tags and categories 
+
+social media sharer
+
+
+user profile with possibility to send message ,  list forum topics , list backed projects ,  member since , linkedin collegation
+
+become a pro*
+
+
+
+connect project to forum_discussion by adding a value in discussion of the project ID 
+as soon as project created => will be made a new discussion => with a random color , with a slug(id) , created by the project creator  or admin ; with a category id , maybe a product category id => both sortable; etc ;  
+
+needed notifications and messages  , need to check that out
+
+tomorrow user profile 
